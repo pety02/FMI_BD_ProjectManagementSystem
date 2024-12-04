@@ -1,0 +1,115 @@
+INSERT INTO FN3MI0700022.USERS (EMAIL, USERNAME, PASSWORD) VALUES ('unrealuser23@outlook.com', 'zippyzoe', 'abcde12345                                                      ');
+INSERT INTO FN3MI0700022.USERS (EMAIL, USERNAME, PASSWORD) VALUES ('fictionalaccount@gmail.com', 'happyharry', 'flymetothemoon                                                  ');
+INSERT INTO FN3MI0700022.USERS (EMAIL, USERNAME, PASSWORD) VALUES ('unrealaddress@yahoo.com', 'crazykyle', '8675309jk                                                       ');
+INSERT INTO FN3MI0700022.USERS (EMAIL, USERNAME, PASSWORD) VALUES ('phantomemail@protonmail.com', 'boldbob', 'mydogspot29                                                     ');
+INSERT INTO FN3MI0700022.USERS (EMAIL, USERNAME, PASSWORD) VALUES ('tempuser9990@gmail.com', 'jollyjane', 'letmein321                                                      ');
+INSERT INTO FN3MI0700022.USERS (EMAIL, USERNAME, PASSWORD) VALUES ('fictitiousemail@yahoo.com', 'cloudberry', '123456789                                                       ');
+INSERT INTO FN3MI0700022.USERS (EMAIL, USERNAME, PASSWORD) VALUES ('dummyaddress@outlook.com', 'speedy423', 'ilovemom1                                                       ');
+INSERT INTO FN3MI0700022.USERS (EMAIL, USERNAME, PASSWORD) VALUES ('notreal@email.co.uk', 'lilypad44', 'password123                                                     ');
+INSERT INTO FN3MI0700022.USERS (EMAIL, USERNAME, PASSWORD) VALUES ('wtpfakeemail@gmail.com', 'hotsauce', 'qwertyuiop                                                      ');
+INSERT INTO FN3MI0700022.USERS (EMAIL, USERNAME, PASSWORD) VALUES ('fakeemail1@yahoo.com', 'coolguy56', 'abcd1234                                                        ');
+
+INSERT INTO FN3MI0700022.COMPANIES (C_NAME, C_ADDRESS, C_DESCRIPTION) VALUES ('SwiftTech', '22 Main Street', 'SwiftTech provides cutting-edge software solutions for businesses of all sizes.');
+INSERT INTO FN3MI0700022.COMPANIES (C_NAME, C_ADDRESS, C_DESCRIPTION) VALUES ('BrightWave', '56 Cherry Lane', 'BrightWave specializes in digital marketing services, including email campaigns and social media management.');
+INSERT INTO FN3MI0700022.COMPANIES (C_NAME, C_ADDRESS, C_DESCRIPTION) VALUES ('Arcadia Group', '10 Pine Grove', 'Arcadia Group offers a wide range of consulting services to help businesses achieve their goals.');
+INSERT INTO FN3MI0700022.COMPANIES (C_NAME, C_ADDRESS, C_DESCRIPTION) VALUES ('Oceanic Innovations', '18 Meadowbrook Road', 'Oceanic Innovations develops innovative products to help protect the environment.');
+INSERT INTO FN3MI0700022.COMPANIES (C_NAME, C_ADDRESS, C_DESCRIPTION) VALUES ('Summit Ventures', '27 Fairview Avenue', 'Summit Ventures invests in promising startups and helps them grow their businesses.');
+INSERT INTO FN3MI0700022.COMPANIES (C_NAME, C_ADDRESS, C_DESCRIPTION) VALUES ('BlueHive Solutions', '14 Woodland Drive', 'BlueHive Solutions offers comprehensive IT support and consulting services.');
+INSERT INTO FN3MI0700022.COMPANIES (C_NAME, C_ADDRESS, C_DESCRIPTION) VALUES ('Nexus Dynamics', '8 Riverfront Road', 'Nexus Dynamics provides advanced engineering solutions for a variety of industries.');
+INSERT INTO FN3MI0700022.COMPANIES (C_NAME, C_ADDRESS, C_DESCRIPTION) VALUES ('Starlight Enterprises', '42 Hillcrest Boulevard', 'Starlight Enterprises is a leading provider of energy-efficient lighting solutions.');
+INSERT INTO FN3MI0700022.COMPANIES (C_NAME, C_ADDRESS, C_DESCRIPTION) VALUES ('Solaris Systems', '5 Mountain View Terrace', 'Solaris Systems designs and installs state-of-the-art solar energy systems for residential and commercial properties.');
+INSERT INTO FN3MI0700022.COMPANIES (C_NAME, C_ADDRESS, C_DESCRIPTION) VALUES ('Quantum Labs', '21 Sunset Drive', 'Quantum Labs specializes in research and development of advanced technologies, including artificial intelligence and quantum computing.');
+
+INSERT INTO FN3MI0700022.TEAMS (CID, T_NAME, T_DESCRIPTION) VALUES (5, 'SparkForce', 'SparkForce is a team of experienced developers and designers who create powerful software solutions to drive business growth and success.');
+INSERT INTO FN3MI0700022.TEAMS (CID, T_NAME, T_DESCRIPTION) VALUES (2, 'TechSquad', 'TechSquad is a team of IT experts who provide comprehensive support services to help businesses improve their technology infrastructure and operations.');
+INSERT INTO FN3MI0700022.TEAMS (CID, T_NAME, T_DESCRIPTION) VALUES (1, 'BrainTrust', 'BrainTrust is a team of strategic consultants who help businesses identify opportunities for growth, optimize their operations, and maximize their profits.');
+INSERT INTO FN3MI0700022.TEAMS (CID, T_NAME, T_DESCRIPTION) VALUES (7, 'Solutioneers', 'Solutioneers is a team of problem solvers who use cutting-edge technologies and innovative thinking to help businesses overcome their toughest challenges.');
+INSERT INTO FN3MI0700022.TEAMS (CID, T_NAME, T_DESCRIPTION) VALUES (8, 'SwiftStream', 'SwiftStream is a team of marketing specialists who develop and execute highly effective marketing strategies to help businesses reach their target audiences and drive sales.');
+INSERT INTO FN3MI0700022.TEAMS (CID, T_NAME, T_DESCRIPTION) VALUES (9, 'InnovationX', 'InnovationX is a team of creative thinkers who develop groundbreaking products and services that disrupt industries and drive innovation.');
+INSERT INTO FN3MI0700022.TEAMS (CID, T_NAME, T_DESCRIPTION) VALUES (3, 'IdeaLab', 'IdeaLab is a team of entrepreneurs who incubate and develop new business ideas, bringing them to market and helping them grow and thrive.');
+INSERT INTO FN3MI0700022.TEAMS (CID, T_NAME, T_DESCRIPTION) VALUES (6, 'AgileMinds', 'AgileMinds is a team of agile development experts who build custom software solutions that meet the unique needs of businesses and drive success.');
+INSERT INTO FN3MI0700022.TEAMS (CID, T_NAME, T_DESCRIPTION) VALUES (4, 'DesignWorks', 'DesignWorks is a team of designers who create beautiful, functional, and user-friendly interfaces for digital products and services.');
+INSERT INTO FN3MI0700022.TEAMS (CID, T_NAME, T_DESCRIPTION) VALUES (10, 'VentureBoost', 'VentureBoost is a team of investors and advisors who provide capital and strategic guidance to help startups and early-stage businesses succeed and scale.');
+
+INSERT INTO FN3MI0700022.USERS_EMPLOYEES (EMAIL, USERNAME, PASSWORD, SALARY, EMP_ADDRESS, PHONE, TEAM_ID) VALUES ('johndoe123@example.com', 'johndoe123', '7f22d50e78e99a71b408a52f7fc51760d5de5b5d1c9d59b5f23d89f20a5d1405', 45000, '123 Main St', '+359877123456', 5);
+INSERT INTO FN3MI0700022.USERS_EMPLOYEES (EMAIL, USERNAME, PASSWORD, SALARY, EMP_ADDRESS, PHONE, TEAM_ID) VALUES ('annasmith85@gmail.com', 'annasmith', '3d3e3d3d3e3d3e3d3e3d3e3d3e3d3e3d3e3d3e3d3e3d3e3d3e3d3e3d3e3d3e3d', 55000, '456 Oak Ave', '0035987112345', 2);
+INSERT INTO FN3MI0700022.USERS_EMPLOYEES (EMAIL, USERNAME, PASSWORD, SALARY, EMP_ADDRESS, PHONE, TEAM_ID) VALUES ('mikebrown456@hotmail.com', 'mikebrown', 'c2364d4a16328a4878e59d9e1d2b79e35826b2a7b994e6c06f7d94a69fbb8b92', 65000, '789 Maple Rd', '+359889567890', 8);
+INSERT INTO FN3MI0700022.USERS_EMPLOYEES (EMAIL, USERNAME, PASSWORD, SALARY, EMP_ADDRESS, PHONE, TEAM_ID) VALUES ('janetlee789@yahoo.com', 'janetlee', 'e80d7ab3ddde951a66b8a1029d9bbf939a7c62eab8b0d855902d1c01e1a6885d', 75000, '1010 Pine Dr', '0035988956789', 3);
+INSERT INTO FN3MI0700022.USERS_EMPLOYEES (EMAIL, USERNAME, PASSWORD, SALARY, EMP_ADDRESS, PHONE, TEAM_ID) VALUES ('dannygarcia321@outlook.com', 'dannygarci', '9d5f0b47ca2b2dbb8f1e972c33b4f7df19d1cb5582337ad9dc95c84f6625db5e', 85000, '1111 Elm Way', '+359898456789', 1);
+INSERT INTO FN3MI0700022.USERS_EMPLOYEES (EMAIL, USERNAME, PASSWORD, SALARY, EMP_ADDRESS, PHONE, TEAM_ID) VALUES ('lisawalker222@gmail.com', 'lisawalker', '05e9d08c5e97a53dd5d40a79ed3bb4cd74a903a23e0fa1a4da4da49f45a404c1', 95000, '1313 Birch Blvd', '0035989845678', 9);
+INSERT INTO FN3MI0700022.USERS_EMPLOYEES (EMAIL, USERNAME, PASSWORD, SALARY, EMP_ADDRESS, PHONE, TEAM_ID) VALUES ('ericjones444@hotmail.com', 'ericjones', '214abf05a45c26f73a2886d2c6c0d6f0ca6bbf28b72945e6e981b0c5761b929e', 105000, '1515 Cedar Ln', '+359878345678', 7);
+INSERT INTO FN3MI0700022.USERS_EMPLOYEES (EMAIL, USERNAME, PASSWORD, SALARY, EMP_ADDRESS, PHONE, TEAM_ID) VALUES ('sarahwilson123@yahoo.com', 'sarahwilso', '8248d9129d2f12ef80a3eb3d8b97977aa6a08c775cafc54fde59c66f9d9e2efc', 115000, '1717 Chestnut St', '0035987834567', 10);
+INSERT INTO FN3MI0700022.USERS_EMPLOYEES (EMAIL, USERNAME, PASSWORD, SALARY, EMP_ADDRESS, PHONE, TEAM_ID) VALUES ('chrisbrown789@outlook.com', 'chrisbrown', '10fc8d76d28f29f6edbc73f1a2b358d9b9e029bca862f754ee7c6b93e6b7e39c', 125000, '1919 Walnut Ave', '+359899234567', 4);
+INSERT INTO FN3MI0700022.USERS_EMPLOYEES (EMAIL, USERNAME, PASSWORD, SALARY, EMP_ADDRESS, PHONE, TEAM_ID) VALUES ('samueljohnson555@gmail.com', 'samueljohn', 'f7ed8e4e0ba7dfc4f5b1f2d8a69eab84f92cb25a3e7c8b77f9b7ecf1e97a7177', 135000, '2121 Cherry St', '0035989923456', 6);
+
+INSERT INTO FN3MI0700022.USERS_AMATEURS (EMAIL, USERNAME, PASSWORD, ACTIVITY_DESCRIPTION) VALUES ('johndoe1234@gmail.com', 'johndoe12', '5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8b8f9864e                ', 'I am an avid reader who enjoys delving into both fiction and non-fiction books.');
+INSERT INTO FN3MI0700022.USERS_AMATEURS (EMAIL, USERNAME, PASSWORD, ACTIVITY_DESCRIPTION) VALUES ('sarahsmith5678@yahoo.com', 'sarahsmi7', '6d7fce9fee471194aa8b5b6e47267f03b7d8a56cde01a13c                ', 'I am a talented musician who spends her free time composing and recording her own music.');
+INSERT INTO FN3MI0700022.USERS_AMATEURS (EMAIL, USERNAME, PASSWORD, ACTIVITY_DESCRIPTION) VALUES ('davidbrown9012@outlook.com', 'davidbrow', '8d969eefc5b5e5d65e52c5d5cd5e5b5d5f5a5c5b5e                      ', 'I am a fitness enthusiast who enjoys weightlifting and hiking in his spare time.');
+INSERT INTO FN3MI0700022.USERS_AMATEURS (EMAIL, USERNAME, PASSWORD, ACTIVITY_DESCRIPTION) VALUES ('maryjones3456@protonmail.com', 'maryjones', 'c637a1941b7f8de84dcb455a0c0afdf38f6ca88e83c46d7d                ', 'I am a passionate volunteer who regularly donates her time to various charities and non-profit organizations.');
+INSERT INTO FN3MI0700022.USERS_AMATEURS (EMAIL, USERNAME, PASSWORD, ACTIVITY_DESCRIPTION) VALUES ('kevinlee7890@aol.com', 'kevinlee8', '67b176633a0b9a9b981c29e3ed26f21203e6b8f6b1c6db74                ', 'I am a skilled chef who loves experimenting with new recipes and hosting dinner parties for friends and family.');
+INSERT INTO FN3MI0700022.USERS_AMATEURS (EMAIL, USERNAME, PASSWORD, ACTIVITY_DESCRIPTION) VALUES ('lisawilson1234@icloud.com', 'lisawilso', '2f9c9aee2d6dbf76b28aad225a51be1d047e35cfdb52361a                ', 'I am an animal lover who volunteers at her local animal shelter and fosters animals in need.');
+INSERT INTO FN3MI0700022.USERS_AMATEURS (EMAIL, USERNAME, PASSWORD, ACTIVITY_DESCRIPTION) VALUES ('tommynguyen5678@live.com', 'tommynguy', '9bc9d18a5b5a5c5d5e5f5a5c5b5e                                    ', 'I am a sports fan who enjoys watching and playing basketball, football, and baseball.');
+INSERT INTO FN3MI0700022.USERS_AMATEURS (EMAIL, USERNAME, PASSWORD, ACTIVITY_DESCRIPTION) VALUES ('jessicawang9012@mail.com', 'jessicawa', 'e88b52a9bace1e0b7e155f2d30ad7d23b4c4fa7f4ea3ec07                ', 'I am an artist who paints and draws in her free time, and has even had her work displayed in local galleries.');
+INSERT INTO FN3MI0700022.USERS_AMATEURS (EMAIL, USERNAME, PASSWORD, ACTIVITY_DESCRIPTION) VALUES ('ryanchoi3456@rocketmail.com', 'ryanchoi3', '09764c5a56610c2d2afcc71bb8cc56a4b8107f4e3d3669cb                ', 'I am a travel enthusiast who loves exploring new cultures and trying new foods.');
+INSERT INTO FN3MI0700022.USERS_AMATEURS (EMAIL, USERNAME, PASSWORD, ACTIVITY_DESCRIPTION) VALUES ('laurahernandez7890@fastmail.com', 'laurahern', '527b5efca92fdecbc02e8e52be2bcbeb5ef5fbd1d0a8b6d2                ', 'I am a DIY enthusiast who spends her weekends tackling various home improvement projects and crafts.');
+
+INSERT INTO FN3MI0700022.PROJECTS (P_NAME, P_VERSION, RELEASE_DATE, P_DESCRIPTION) VALUES ('Project Neptune', 'v2.0', '2023-03-15', 'A cutting-edge underwater exploration tool designed for marine researchers.');
+INSERT INTO FN3MI0700022.PROJECTS (P_NAME, P_VERSION, RELEASE_DATE, P_DESCRIPTION) VALUES ('Project Atlas', 'v1.5', '2023-06-01', 'A next-generation mapping software that allows for 3D renderings and interactive data analysis.');
+INSERT INTO FN3MI0700022.PROJECTS (P_NAME, P_VERSION, RELEASE_DATE, P_DESCRIPTION) VALUES ('Project Phoenix', 'v3.2', '2023-08-20', 'A revolutionary disaster relief aid tool that uses AI to analyze and streamline response efforts.');
+INSERT INTO FN3MI0700022.PROJECTS (P_NAME, P_VERSION, RELEASE_DATE, P_DESCRIPTION) VALUES ('Project Eclipse', 'v1.1', '2023-09-10', 'A secure and user-friendly file sharing platform designed for businesses.');
+INSERT INTO FN3MI0700022.PROJECTS (P_NAME, P_VERSION, RELEASE_DATE, P_DESCRIPTION) VALUES ('Project Helios', 'v4.0', '2023-11-01', 'A state-of-the-art solar energy solution for residential and commercial use.');
+INSERT INTO FN3MI0700022.PROJECTS (P_NAME, P_VERSION, RELEASE_DATE, P_DESCRIPTION) VALUES ('Project Orion', 'v2.3', '2023-12-12', 'A comprehensive data management system for healthcare providers.');
+INSERT INTO FN3MI0700022.PROJECTS (P_NAME, P_VERSION, RELEASE_DATE, P_DESCRIPTION) VALUES ('Project Lyra', 'v1.0', '2024-01-10', 'A new social media platform that emphasizes privacy and user control.');
+INSERT INTO FN3MI0700022.PROJECTS (P_NAME, P_VERSION, RELEASE_DATE, P_DESCRIPTION) VALUES ('Project Titan', 'v2.5', '2024-02-05', 'A rugged and durable tablet designed for outdoor use and extreme conditions.');
+INSERT INTO FN3MI0700022.PROJECTS (P_NAME, P_VERSION, RELEASE_DATE, P_DESCRIPTION) VALUES ('Project Zenith', 'v1.2', '2024-03-30', 'A sophisticated project management software that utilizes machine learning for optimization and efficiency.');
+INSERT INTO FN3MI0700022.PROJECTS (P_NAME, P_VERSION, RELEASE_DATE, P_DESCRIPTION) VALUES ('Project Aurora', 'v3.1', '2024-05-01', 'A high-speed internet solution that uses advanced satellite technology for global coverage.');
+
+INSERT INTO FN3MI0700022.TASKS (STATUS, START_DATE, T_DESCRIPTION, DEFINED_BY_UID, PROJECT_ID) VALUES ('unfinished', '2023-02-28', 'Conduct market research to determine target audience and market demand.', 6, 2);
+INSERT INTO FN3MI0700022.TASKS (STATUS, START_DATE, T_DESCRIPTION, DEFINED_BY_UID, PROJECT_ID) VALUES ('unfinished', '2023-05-15', 'Design and implement user interface for mobile app.', 3, 8);
+INSERT INTO FN3MI0700022.TASKS (STATUS, START_DATE, T_DESCRIPTION, DEFINED_BY_UID, PROJECT_ID) VALUES ('unfinished', '2023-07-20', 'Create detailed project plan with timelines and resource allocation.', 8, 7);
+INSERT INTO FN3MI0700022.TASKS (STATUS, START_DATE, T_DESCRIPTION, DEFINED_BY_UID, PROJECT_ID) VALUES ('unfinished', '2023-09-03', 'Develop and test software components for new e-commerce platform.', 2, 5);
+INSERT INTO FN3MI0700022.TASKS (STATUS, START_DATE, T_DESCRIPTION, DEFINED_BY_UID, PROJECT_ID) VALUES ('unfinished', '2023-11-10', 'Write and edit copy for website and marketing materials.', 5, 1);
+INSERT INTO FN3MI0700022.TASKS (STATUS, START_DATE, T_DESCRIPTION, DEFINED_BY_UID, PROJECT_ID) VALUES ('unfinished', '2024-01-08', 'Analyze user data and provide insights for product improvement.', 7, 4);
+INSERT INTO FN3MI0700022.TASKS (STATUS, START_DATE, T_DESCRIPTION, DEFINED_BY_UID, PROJECT_ID) VALUES ('unfinished', '2024-03-23', 'Conduct usability testing with focus groups and individuals.', 9, 9);
+INSERT INTO FN3MI0700022.TASKS (STATUS, START_DATE, T_DESCRIPTION, DEFINED_BY_UID, PROJECT_ID) VALUES ('unfinished', '2024-05-05', 'Develop and implement social media strategy to increase engagement.', 4, 10);
+INSERT INTO FN3MI0700022.TASKS (STATUS, START_DATE, T_DESCRIPTION, DEFINED_BY_UID, PROJECT_ID) VALUES ('unfinished', '2024-06-30', 'Coordinate with external vendors and contractors to ensure project completion.', 1, 3);
+INSERT INTO FN3MI0700022.TASKS (STATUS, START_DATE, T_DESCRIPTION, DEFINED_BY_UID, PROJECT_ID) VALUES ('unfinished', '2024-08-11', 'Provide technical support and troubleshooting for customers.', 10, 6);
+
+INSERT INTO FN3MI0700022.EXECUTABLES (DEADLINE) VALUES ('2023-03-15');
+INSERT INTO FN3MI0700022.EXECUTABLES (DEADLINE) VALUES ('2023-06-01');
+INSERT INTO FN3MI0700022.EXECUTABLES (DEADLINE) VALUES ('2023-08-20');
+INSERT INTO FN3MI0700022.EXECUTABLES (DEADLINE) VALUES ('2023-09-10');
+INSERT INTO FN3MI0700022.EXECUTABLES (DEADLINE) VALUES ('2023-11-01');
+INSERT INTO FN3MI0700022.EXECUTABLES (DEADLINE) VALUES ('2023-12-12');
+INSERT INTO FN3MI0700022.EXECUTABLES (DEADLINE) VALUES ('2024-01-10');
+INSERT INTO FN3MI0700022.EXECUTABLES (DEADLINE) VALUES ('2024-02-05');
+INSERT INTO FN3MI0700022.EXECUTABLES (DEADLINE) VALUES ('2024-03-30');
+INSERT INTO FN3MI0700022.EXECUTABLES (DEADLINE) VALUES ('2024-05-01');
+
+INSERT INTO FN3MI0700022.BUGS (SCENARIO, PROJECT_ID, BLOCKING_DATE, UNBLOCKING_DATE) VALUES ('Users are unable to upload profile picture in mobile app.', 6, '2023-03-12', '2023-03-18');
+INSERT INTO FN3MI0700022.BUGS (SCENARIO, PROJECT_ID, BLOCKING_DATE, UNBLOCKING_DATE) VALUES ('Shopping cart is not displaying accurate inventory levels.', 2, '2023-05-21', '2023-06-01');
+INSERT INTO FN3MI0700022.BUGS (SCENARIO, PROJECT_ID, BLOCKING_DATE, UNBLOCKING_DATE) VALUES ('Search bar is not returning relevant results for keywords.', 9, '2023-08-01', '2023-08-15');
+INSERT INTO FN3MI0700022.BUGS (SCENARIO, PROJECT_ID, BLOCKING_DATE, UNBLOCKING_DATE) VALUES ('User authentication is failing for certain email domains.', 3, '2023-10-05', '2023-10-20');
+INSERT INTO FN3MI0700022.BUGS (SCENARIO, PROJECT_ID, BLOCKING_DATE, UNBLOCKING_DATE) VALUES ('Payments are not processing correctly, resulting in error messages.', 7, '2023-12-18', '2024-01-01');
+
+INSERT INTO FN3MI0700022.WORKSON (UID, TID) VALUES (2, 6);
+INSERT INTO FN3MI0700022.WORKSON (UID, TID) VALUES (8, 3);
+INSERT INTO FN3MI0700022.WORKSON (UID, TID) VALUES (7, 8);
+INSERT INTO FN3MI0700022.WORKSON (UID, TID) VALUES (5, 2);
+INSERT INTO FN3MI0700022.WORKSON (UID, TID) VALUES (1, 5);
+INSERT INTO FN3MI0700022.WORKSON (UID, TID) VALUES (4, 7);
+INSERT INTO FN3MI0700022.WORKSON (UID, TID) VALUES (9, 9);
+INSERT INTO FN3MI0700022.WORKSON (UID, TID) VALUES (10, 4);
+INSERT INTO FN3MI0700022.WORKSON (UID, TID) VALUES (3, 1);
+INSERT INTO FN3MI0700022.WORKSON (UID, TID) VALUES (6, 10);
+
+INSERT INTO FN3MI0700022.TEAMSWORKON (TEAM_ID, P_ID) VALUES (8, 5);
+INSERT INTO FN3MI0700022.TEAMSWORKON (TEAM_ID, P_ID) VALUES (2, 2);
+INSERT INTO FN3MI0700022.TEAMSWORKON (TEAM_ID, P_ID) VALUES (6, 8);
+INSERT INTO FN3MI0700022.TEAMSWORKON (TEAM_ID, P_ID) VALUES (3, 3);
+INSERT INTO FN3MI0700022.TEAMSWORKON (TEAM_ID, P_ID) VALUES (7, 1);
+INSERT INTO FN3MI0700022.TEAMSWORKON (TEAM_ID, P_ID) VALUES (9, 9);
+INSERT INTO FN3MI0700022.TEAMSWORKON (TEAM_ID, P_ID) VALUES (1, 7);
+INSERT INTO FN3MI0700022.TEAMSWORKON (TEAM_ID, P_ID) VALUES (5, 10);
+INSERT INTO FN3MI0700022.TEAMSWORKON (TEAM_ID, P_ID) VALUES (10, 4);
+INSERT INTO FN3MI0700022.TEAMSWORKON (TEAM_ID, P_ID) VALUES (4, 6);
