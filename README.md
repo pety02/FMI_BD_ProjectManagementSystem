@@ -1,4 +1,8 @@
 # Data Base Management Systems University course's Project. 
+## Brief description:
+This project implements an IBM DB2 SQL database for management of projects in different companies / organizations.
+
+## Sources:
 - Full Documentation of the project you can find in **ProjectManagement_SUBDDocumentation.pdf** file
 - Also here you can find all needed data for creating this documentational file and some IBM DB2 database SQL scripts like:
   - the script that creates the tables;
