@@ -24,9 +24,7 @@ VALUES ('dummyaddress@outlook.com', 'speedy423', '123456');
 
 -- trigger execution - inserts successfully a user
 INSERT INTO FN3MI0700022.USERS(EMAIL, USERNAME, PASSWORD)
-VALUES ('dummy@outlook.com', 'new423', '123456');
-
-SET SCHEMA FN3MI0700022;
+VALUES ('test@outlook.com', 'test123', '123456');
 
 -- A trigger that validates the user date before update.
 CREATE OR REPLACE TRIGGER TRIG_BEFORE_USER_UPDATE
@@ -50,9 +48,7 @@ BEGIN
 END;
 
 -- trigger execution - successfully updates the user with a definite username
-UPDATE FN3MI0700022.USERS U SET U.EMAIL = 'newaddress@gmail.com' WHERE U.USERNAME = 'new423';
-
-SET SCHEMA FN3MI0700022;
+UPDATE FN3MI0700022.USERS U SET U.EMAIL = 'newtest@gmail.com' WHERE U.USERNAME = 'test123';
 
 -- A trigger that logs deletions from Projects table
 -- (after a definite project is deleted).
@@ -68,8 +64,6 @@ CREATE TABLE DELETED_PROJECTS_LOG (
     CHECK (RELEASE_DATE >= DATE('2023-01-01'))
 );
 
-SET SCHEMA FN3MI0700022;
-
 -- A trigger that logs data for the deleted project after the project deletion.
 CREATE OR REPLACE TRIGGER TRIG_LOG_AFTER_PROJECT_DELETION
     AFTER DELETE ON FN3MI0700022.PROJECTS
@@ -80,7 +74,13 @@ BEGIN
         VALUES (O.P_NAME, O.P_VERSION, O.P_DESCRIPTION);
 END;
 
--- deletes all connections to the project before executing the next line,
+-- deletes all connections to the project before executing the next line
+DELETE FROM FN3MI0700022.EXECUTABLES E WHERE E.TID = 7;
+DELETE FROM FN3MI0700022.BUGS B WHERE B.PROJECT_ID = 1;
+DELETE FROM FN3MI0700022.WORKSON W WHERE W.TID = 7;
+DELETE FROM FN3MI0700022.TASKS T WHERE T.TID = 7;
+DELETE FROM FN3MI0700022.TEAMSWORKON TW WHERE TW.P_ID = 1;
+
 -- then executes the project deletion line and after the deletion in the
 -- FN3MI0700022.DELETED_PROJECTS_LOG table will appear a log for this
 -- deleted project

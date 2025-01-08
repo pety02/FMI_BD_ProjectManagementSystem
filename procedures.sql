@@ -27,7 +27,6 @@ END;
 
 -- this procedure is tested in the before insert trigger for the FN3MI0700022.USERS table
 
-SET SCHEMA FN3MI0700022;
 CREATE OR REPLACE MODULE COMPANIES_MOD;
 
 -- A procedure that will return information about all companies in which amateurs
@@ -83,8 +82,6 @@ END;
 
 -- executes the procedure
 CALL FN3MI0700022.COMPANIES_MOD.P_GET_ALL_COMPANIES_IN_WHICH_AMATEURS_WORKS_INFO();
-
-SET SCHEMA FN3MI0700022;
 
 -- A procedure that returns the history of a definite employee on the base of his / her
 -- username. This procedure can be used for employees audit.

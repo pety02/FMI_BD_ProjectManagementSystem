@@ -1,3 +1,8 @@
+-- set my schema as default schema
+SET SCHEMA FN3MI0700022;
+
+-- Employees view: shows information about the employees in dependence of
+-- in which team and in which company he or she works.
 CREATE VIEW "Employees" AS
 SELECT FN3MI0700022.USERS_EMPLOYEES.EMAIL,
        FN3MI0700022.USERS_EMPLOYEES.USERNAME,
@@ -10,20 +15,29 @@ FROM FN3MI0700022.USERS_EMPLOYEES, FN3MI0700022.TEAMS, FN3MI0700022.COMPANIES
 WHERE FN3MI0700022.USERS_EMPLOYEES.TEAM_ID = FN3MI0700022.TEAMS.TID AND
       FN3MI0700022.TEAMS.CID = FN3MI0700022.COMPANIES.CID;
 
+-- executes the Employees view query
 SELECT * FROM "Employees" WHERE C_NAME = 'Nexus Dynamics';
 
+-- Tasks view: Shows information for all tasks that deadline is after current date
+-- in other word shows information about all unfinished tasks.
 CREATE VIEW "Tasks" AS
 SELECT * FROM FN3MI0700022.EXECUTABLES
 WHERE DEADLINE > CURRENT_DATE;
 
+-- executes the Tasks view query
 SELECT * FROM "Tasks";
-DROP VIEW "Tasks";
 
+-- Bugs view: Shows information about all bugs that still blocks any task.
 CREATE VIEW "Bugs" AS
 SELECT * FROM "Bugs"
 WHERE FN3MI0700022."Bugs".UNBLOCKING_DATE > FN3MI0700022."Bugs".BLOCKING_DATE;
 
-SELECT * FROM Bugs;
-INSERT INTO Bugs(SCENARIO, PROJECT_ID, BLOCKING_DATE, UNBLOCKING_DATE)
-VALUES('new bug scenario', 10, '2023-04-22', '2023-05-31');
-SELECT * FROM Bugs;
+-- executes the Bugs view query
+SELECT * FROM "Bugs";
+
+-- inserts new record in Bugs table
+INSERT INTO Bugs(TID, SCENARIO, PROJECT_ID, BLOCKING_DATE, UNBLOCKING_DATE)
+VALUES(7, 'new bug scenario 2025', 10, '2024-04-22', '2025-01-05');
+
+-- re-executes the Bugs view query
+SELECT * FROM "Bugs";
