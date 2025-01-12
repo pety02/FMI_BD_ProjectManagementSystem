@@ -14,7 +14,8 @@ BEGIN
 
     -- Signal an error if data is invalid
     IF V_IS_VALID_DATA = FALSE THEN
-        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Validation failed: Email or Username is not unique.';
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT =
+            'Validation failed: Email or Username is not unique.';
     END IF;
 END;
 
@@ -38,7 +39,8 @@ BEGIN
 
     -- Signal an error if data is invalid
     IF V_IS_VALID_DATA = FALSE THEN
-        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Validation failed: Email or Username is not unique.';
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT =
+            'Validation failed: Email or Username is not unique.';
     END IF;
 
     -- Optionally, check for specific fields being updated

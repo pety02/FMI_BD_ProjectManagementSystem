@@ -37,7 +37,8 @@ SELECT * FROM "Bugs";
 
 -- inserts new record in Bugs table
 INSERT INTO Bugs(TID, SCENARIO, PROJECT_ID, BLOCKING_DATE, UNBLOCKING_DATE)
-VALUES(7, 'new bug scenario 2025', 10, '2024-04-22', '2025-01-05');
+VALUES(7, 'new bug scenario 2025', 10,
+       '2024-04-22', '2025-01-05');
 
 -- re-executes the Bugs view query
 SELECT * FROM "Bugs";
